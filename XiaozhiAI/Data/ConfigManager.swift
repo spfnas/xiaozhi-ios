@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 struct XiaozhiConfig: Codable {
     var otaUrl: String
@@ -27,14 +28,14 @@ final class ConfigManager {
 
     func load() -> XiaozhiConfig {
         guard let data = try? Data(contentsOf: fileURL),
-              let cfg = try? JSONDecoder().decode(XiaozhiConfig.self, from: data) else {
+              let decoded = try? JSONDecoder().decode(XiaozhiConfig.self, from: data) else {
             var cfg = XiaozhiConfig.default
             if cfg.deviceId.isEmpty {
                 cfg.deviceId = Self.macAddressFallback()
             }
             return cfg
         }
-        var cfg = cfg
+        var cfg = decoded
         if cfg.deviceId.isEmpty { cfg.deviceId = Self.macAddressFallback() }
         if cfg.clientId.isEmpty { cfg.clientId = UUID().uuidString }
         return cfg
