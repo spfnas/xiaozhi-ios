@@ -339,7 +339,7 @@ struct MessageBubble: View {
             Text(msg.text)
                 .font(.auraBodyMd)
                 .padding(12)
-                .background(msg.role == .user ? Color.auraPrimary : .ultraThinMaterial)
+                .background(msg.role == .user ? AnyShapeStyle(Color.auraPrimary) : AnyShapeStyle(.ultraThinMaterial))
                 .foregroundColor(msg.role == .user ? .white : .auraOnSurface)
                 .clipShape(RoundedRectangle(cornerRadius: AuraRadius.xxl, style: .continuous))
                 .fixedSize(horizontal: false, vertical: true)
