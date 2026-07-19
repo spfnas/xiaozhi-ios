@@ -22,17 +22,17 @@
 /* Begin PBXFileReference section */
 		AA00000000000000000050 /* XiaozhiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaozhiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA00000000000000000051 /* XiaozhiAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaozhiAIApp.swift; sourceTree = "<group>"; };
-		AA00000000000000000052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA00000000000000000053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		AA00000000000000000054 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModels.swift; sourceTree = "<group>"; };
-		AA00000000000000000055 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000056 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtaService.swift; sourceTree = "<group>"; };
-		AA00000000000000000057 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000058 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCodec.swift; sourceTree = "<group>"; };
-		AA00000000000000000059 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000060 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
+		AA00000000000000000052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		AA00000000000000000053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		AA00000000000000000054 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageModels.swift; path = Models/MessageModels.swift; sourceTree = "<group>"; };
+		AA00000000000000000055 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = Data/ConfigManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000056 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtaService.swift; path = Network/OtaService.swift; sourceTree = "<group>"; };
+		AA00000000000000000057 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = Network/WebSocketManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000058 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpusCodec.swift; path = Audio/OpusCodec.swift; sourceTree = "<group>"; };
+		AA00000000000000000059 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = Audio/AudioManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000060 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = ViewModels/ConversationViewModel.swift; sourceTree = "<group>"; };
 		AA00000000000000000061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XiaozhiAI-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaozhiAI-Bridging-Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,19 +58,67 @@
 			isa = PBXGroup;
 			children = (
 				AA00000000000000000051 /* XiaozhiAIApp.swift */,
-				AA00000000000000000052 /* ContentView.swift */,
-				AA00000000000000000053 /* SettingsView.swift */,
-				AA00000000000000000054 /* MessageModels.swift */,
-				AA00000000000000000055 /* ConfigManager.swift */,
-				AA00000000000000000056 /* OtaService.swift */,
-				AA00000000000000000057 /* WebSocketManager.swift */,
-				AA00000000000000000058 /* OpusCodec.swift */,
-				AA00000000000000000059 /* AudioManager.swift */,
-				AA00000000000000000060 /* ConversationViewModel.swift */,
+				AA00000000000000000090 /* Views */,
+				AA00000000000000000091 /* Models */,
+				AA00000000000000000092 /* Data */,
+				AA00000000000000000093 /* Network */,
+				AA00000000000000000094 /* Audio */,
+				AA00000000000000000095 /* ViewModels */,
 				AA00000000000000000061 /* Info.plist */,
 				AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */,
 			);
 			path = XiaozhiAI;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000090 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000052 /* ContentView.swift */,
+				AA00000000000000000053 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000091 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000054 /* MessageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000092 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000055 /* ConfigManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000093 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000056 /* OtaService.swift */,
+				AA00000000000000000057 /* WebSocketManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000094 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000058 /* OpusCodec.swift */,
+				AA00000000000000000059 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		AA00000000000000000095 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000060 /* ConversationViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +199,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(SRCROOT)/opus/lib/libopus.a",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -262,7 +311,7 @@
 					"$(SRCROOT)/opus/lib",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -303,7 +352,7 @@
 					"$(SRCROOT)/opus/lib",
 				);
 				TARGETED_DEVICE_FAMILY = "1,2";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
