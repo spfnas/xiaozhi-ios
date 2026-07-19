@@ -22,15 +22,15 @@
 /* Begin PBXFileReference section */
 		AA20000000000000000000 /* XiaozhiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaozhiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA20000000000000000001 /* XiaozhiAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaozhiAIApp.swift; sourceTree = "<group>"; };
-		AA20000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
-		AA20000000000000000003 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
-		AA20000000000000000004 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageModels.swift; path = Models/MessageModels.swift; sourceTree = "<group>"; };
-		AA20000000000000000005 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = Data/ConfigManager.swift; sourceTree = "<group>"; };
-		AA20000000000000000006 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtaService.swift; path = Network/OtaService.swift; sourceTree = "<group>"; };
-		AA20000000000000000007 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = Network/WebSocketManager.swift; sourceTree = "<group>"; };
-		AA20000000000000000008 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpusCodec.swift; path = Audio/OpusCodec.swift; sourceTree = "<group>"; };
-		AA20000000000000000009 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = Audio/AudioManager.swift; sourceTree = "<group>"; };
-		AA20000000000000000010 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = ViewModels/ConversationViewModel.swift; sourceTree = "<group>"; };
+		AA20000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA20000000000000000003 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA20000000000000000004 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageModels.swift; path = MessageModels.swift; sourceTree = "<group>"; };
+		AA20000000000000000005 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000006 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtaService.swift; path = OtaService.swift; sourceTree = "<group>"; };
+		AA20000000000000000007 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000008 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpusCodec.swift; path = OpusCodec.swift; sourceTree = "<group>"; };
+		AA20000000000000000009 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000010 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
 		AA20000000000000000050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA20000000000000000060 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaozhiAI-Bridging-Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
