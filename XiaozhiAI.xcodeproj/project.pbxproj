@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00000000000000000001 /* XiaozhiAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000051 /* XiaozhiAIApp.swift */; };
+		AA00000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000052 /* ContentView.swift */; };
+		AA00000000000000000003 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000053 /* SettingsView.swift */; };
+		AA00000000000000000004 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000054 /* MessageModels.swift */; };
+		AA00000000000000000005 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000055 /* ConfigManager.swift */; };
+		AA00000000000000000006 /* OtaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000056 /* OtaService.swift */; };
+		AA00000000000000000007 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000057 /* WebSocketManager.swift */; };
+		AA00000000000000000008 /* OpusCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000058 /* OpusCodec.swift */; };
+		AA00000000000000000009 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000059 /* AudioManager.swift */; };
+		AA00000000000000000010 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000060 /* ConversationViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA00000000000000000050 /* XiaozhiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaozhiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00000000000000000051 /* XiaozhiAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaozhiAIApp.swift; sourceTree = "<group>"; };
+		AA00000000000000000052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA00000000000000000053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA00000000000000000054 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModels.swift; sourceTree = "<group>"; };
+		AA00000000000000000055 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000056 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtaService.swift; sourceTree = "<group>"; };
+		AA00000000000000000057 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000058 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCodec.swift; sourceTree = "<group>"; };
+		AA00000000000000000059 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		AA00000000000000000060 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
+		AA00000000000000000061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XiaozhiAI-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA00000000000000000070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA00000000000000000080 = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000081 /* XiaozhiAI */,
+				AA00000000000000000050 /* XiaozhiAI.app */,
+			);
+			sourceTree = "<group>";
+		};
+		AA00000000000000000081 /* XiaozhiAI */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000051 /* XiaozhiAIApp.swift */,
+				AA00000000000000000052 /* ContentView.swift */,
+				AA00000000000000000053 /* SettingsView.swift */,
+				AA00000000000000000054 /* MessageModels.swift */,
+				AA00000000000000000055 /* ConfigManager.swift */,
+				AA00000000000000000056 /* OtaService.swift */,
+				AA00000000000000000057 /* WebSocketManager.swift */,
+				AA00000000000000000058 /* OpusCodec.swift */,
+				AA00000000000000000059 /* AudioManager.swift */,
+				AA00000000000000000060 /* ConversationViewModel.swift */,
+				AA00000000000000000061 /* Info.plist */,
+				AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */,
+			);
+			path = XiaozhiAI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA00000000000000000090 /* XiaozhiAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000000000000000000A0 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */;
+			buildPhases = (
+				AA00000000000000000091 /* Sources */,
+				AA00000000000000000070 /* Frameworks */,
+				AA00000000000000000092 /* Resources */,
+				AA00000000000000000093 /* Build Opus */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaozhiAI;
+			productName = XiaozhiAI;
+			productReference = AA00000000000000000050 /* XiaozhiAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00000000000000000095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA00000000000000000090 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000000000000000000A1 /* Build configuration list for PBXProject "XiaozhiAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00000000000000000080;
+			productRefGroup = AA00000000000000000080;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA00000000000000000090 /* XiaozhiAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA00000000000000000092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA00000000000000000093 /* Build Opus */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Opus";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/build_opus.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA00000000000000000091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00000000000000000001 /* XiaozhiAIApp.swift in Sources */,
+				AA00000000000000000002 /* ContentView.swift in Sources */,
+				AA00000000000000000003 /* SettingsView.swift in Sources */,
+				AA00000000000000000004 /* MessageModels.swift in Sources */,
+				AA00000000000000000005 /* ConfigManager.swift in Sources */,
+				AA00000000000000000006 /* OtaService.swift in Sources */,
+				AA00000000000000000007 /* WebSocketManager.swift in Sources */,
+				AA00000000000000000008 /* OpusCodec.swift in Sources */,
+				AA00000000000000000009 /* AudioManager.swift in Sources */,
+				AA00000000000000000010 /* ConversationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000000000000000000A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000000000000000000A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000000000000000000A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XiaozhiAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lopus",
+					"-framework AVFoundation",
+					"-framework AudioToolbox",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaozhi.ai.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XiaozhiAI/XiaozhiAI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/opus/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/opus/lib",
+				);
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		AA000000000000000000A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = XiaozhiAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lopus",
+					"-framework AVFoundation",
+					"-framework AudioToolbox",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaozhi.ai.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "XiaozhiAI/XiaozhiAI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/opus/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/opus/lib",
+				);
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000000000000000000A0 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000000000000000000A4 /* Debug */,
+				AA000000000000000000A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000000000000000000A1 /* Build configuration list for PBXProject "XiaozhiAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000000000000000000A2 /* Debug */,
+				AA000000000000000000A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA00000000000000000095 /* Project object */;
+}
