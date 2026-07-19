@@ -2,7 +2,6 @@ import SwiftUI
 
 struct SettingsView: View {
     @ObservedObject var vm: ConversationViewModel
-    @Environment(\.dismiss) private var dismiss
     @State private var otaUrl: String
     @State private var websocketUrl: String
     @State private var token: String
@@ -15,27 +14,20 @@ struct SettingsView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            ZStack {
-                Color(.systemGroupedBackground).ignoresSafeArea()
-                ScrollView {
-                    VStack(spacing: 18) {
-                        headerCard
-                        configCard
-                        actionButtons
-                        tipCard
-                    }
-                    .padding(16)
+        ZStack {
+            Color(.systemGroupedBackground).ignoresSafeArea()
+            ScrollView {
+                VStack(spacing: 18) {
+                    headerCard
+                    configCard
+                    actionButtons
+                    tipCard
                 }
-            }
-            .navigationTitle("设置")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("完成") { dismiss() }
-                }
+                .padding(16)
             }
         }
+        .navigationTitle("设置")
+        .navigationBarTitleDisplayMode(.inline)
     }
 
     private var headerCard: some View {

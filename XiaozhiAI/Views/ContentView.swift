@@ -19,7 +19,6 @@ struct ContentView: View {
                     bottomBar
                 }
             }
-            .navigationBarHidden(true)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: SettingsView(vm: vm)) {
@@ -35,7 +34,7 @@ struct ContentView: View {
     // MARK: - 顶部助手头像 + 状态 (豆包风格)
     private var topHeader: some View {
         VStack(spacing: 8) {
-            Spacer().frame(height: 24)
+            Spacer().frame(height: 8)
             // 助手头像 (圆形渐变 + 表情)
             ZStack {
                 Circle()
