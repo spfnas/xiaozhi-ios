@@ -22,10 +22,6 @@ final class OpusCodec {
             return nil
         }
         encoder = enc
-        var bitrate: Int32 = 32000
-        opus_encoder_ctl(enc, OPUS_SET_BITRATE_REQUEST, &bitrate)
-        var vbr: Int32 = 0
-        opus_encoder_ctl(enc, OPUS_SET_VBR_REQUEST, &vbr)
 
         guard let dec = opus_decoder_create(OpusCodec.sampleRate, OpusCodec.channels, &error),
               error == OPUS_OK else {
