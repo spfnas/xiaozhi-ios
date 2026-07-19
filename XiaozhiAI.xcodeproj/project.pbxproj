@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA00000000000000000001 /* XiaozhiAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000051 /* XiaozhiAIApp.swift */; };
-		AA00000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000052 /* ContentView.swift */; };
-		AA00000000000000000003 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000053 /* SettingsView.swift */; };
-		AA00000000000000000004 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000054 /* MessageModels.swift */; };
-		AA00000000000000000005 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000055 /* ConfigManager.swift */; };
-		AA00000000000000000006 /* OtaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000056 /* OtaService.swift */; };
-		AA00000000000000000007 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000057 /* WebSocketManager.swift */; };
-		AA00000000000000000008 /* OpusCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000058 /* OpusCodec.swift */; };
-		AA00000000000000000009 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000059 /* AudioManager.swift */; };
-		AA00000000000000000010 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000060 /* ConversationViewModel.swift */; };
+		AA10000000000000000001 /* XiaozhiAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000001 /* XiaozhiAIApp.swift */; };
+		AA10000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000002 /* ContentView.swift */; };
+		AA10000000000000000003 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000003 /* SettingsView.swift */; };
+		AA10000000000000000004 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000004 /* MessageModels.swift */; };
+		AA10000000000000000005 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000005 /* ConfigManager.swift */; };
+		AA10000000000000000006 /* OtaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000006 /* OtaService.swift */; };
+		AA10000000000000000007 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000007 /* WebSocketManager.swift */; };
+		AA10000000000000000008 /* OpusCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000008 /* OpusCodec.swift */; };
+		AA10000000000000000009 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000009 /* AudioManager.swift */; };
+		AA10000000000000000010 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20000000000000000010 /* ConversationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA00000000000000000050 /* XiaozhiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaozhiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA00000000000000000051 /* XiaozhiAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaozhiAIApp.swift; sourceTree = "<group>"; };
-		AA00000000000000000052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
-		AA00000000000000000053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
-		AA00000000000000000054 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageModels.swift; path = Models/MessageModels.swift; sourceTree = "<group>"; };
-		AA00000000000000000055 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = Data/ConfigManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000056 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtaService.swift; path = Network/OtaService.swift; sourceTree = "<group>"; };
-		AA00000000000000000057 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = Network/WebSocketManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000058 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpusCodec.swift; path = Audio/OpusCodec.swift; sourceTree = "<group>"; };
-		AA00000000000000000059 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = Audio/AudioManager.swift; sourceTree = "<group>"; };
-		AA00000000000000000060 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = ViewModels/ConversationViewModel.swift; sourceTree = "<group>"; };
-		AA00000000000000000061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaozhiAI-Bridging-Header.h; sourceTree = "<group>"; };
+		AA20000000000000000000 /* XiaozhiAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaozhiAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA20000000000000000001 /* XiaozhiAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaozhiAIApp.swift; sourceTree = "<group>"; };
+		AA20000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		AA20000000000000000003 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		AA20000000000000000004 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageModels.swift; path = Models/MessageModels.swift; sourceTree = "<group>"; };
+		AA20000000000000000005 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = Data/ConfigManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000006 /* OtaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtaService.swift; path = Network/OtaService.swift; sourceTree = "<group>"; };
+		AA20000000000000000007 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = Network/WebSocketManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000008 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpusCodec.swift; path = Audio/OpusCodec.swift; sourceTree = "<group>"; };
+		AA20000000000000000009 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = Audio/AudioManager.swift; sourceTree = "<group>"; };
+		AA20000000000000000010 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = ViewModels/ConversationViewModel.swift; sourceTree = "<group>"; };
+		AA20000000000000000050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA20000000000000000060 /* XiaozhiAI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaozhiAI-Bridging-Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA00000000000000000070 /* Frameworks */ = {
+		AA80000000000000000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,77 +46,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA00000000000000000080 = {
+		AA30000000000000000000 /* root */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000081 /* XiaozhiAI */,
-				AA00000000000000000050 /* XiaozhiAI.app */,
+				AA30000000000000000001 /* XiaozhiAI */,
+				AA20000000000000000000 /* XiaozhiAI.app */,
 			);
 			sourceTree = "<group>";
 		};
-		AA00000000000000000081 /* XiaozhiAI */ = {
+		AA30000000000000000001 /* XiaozhiAI */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000051 /* XiaozhiAIApp.swift */,
-				AA00000000000000000090 /* Views */,
-				AA00000000000000000091 /* Models */,
-				AA00000000000000000092 /* Data */,
-				AA00000000000000000093 /* Network */,
-				AA00000000000000000094 /* Audio */,
-				AA00000000000000000095 /* ViewModels */,
-				AA00000000000000000061 /* Info.plist */,
-				AA00000000000000000062 /* XiaozhiAI-Bridging-Header.h */,
+				AA20000000000000000001 /* XiaozhiAIApp.swift */,
+				AA30000000000000000010 /* Views */,
+				AA30000000000000000020 /* Models */,
+				AA30000000000000000030 /* Data */,
+				AA30000000000000000040 /* Network */,
+				AA30000000000000000050 /* Audio */,
+				AA30000000000000000060 /* ViewModels */,
+				AA20000000000000000050 /* Info.plist */,
+				AA20000000000000000060 /* XiaozhiAI-Bridging-Header.h */,
 			);
 			path = XiaozhiAI;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000090 /* Views */ = {
+		AA30000000000000000010 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000052 /* ContentView.swift */,
-				AA00000000000000000053 /* SettingsView.swift */,
+				AA20000000000000000002 /* ContentView.swift */,
+				AA20000000000000000003 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000091 /* Models */ = {
+		AA30000000000000000020 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000054 /* MessageModels.swift */,
+				AA20000000000000000004 /* MessageModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000092 /* Data */ = {
+		AA30000000000000000030 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000055 /* ConfigManager.swift */,
+				AA20000000000000000005 /* ConfigManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000093 /* Network */ = {
+		AA30000000000000000040 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000056 /* OtaService.swift */,
-				AA00000000000000000057 /* WebSocketManager.swift */,
+				AA20000000000000000006 /* OtaService.swift */,
+				AA20000000000000000007 /* WebSocketManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000094 /* Audio */ = {
+		AA30000000000000000050 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000058 /* OpusCodec.swift */,
-				AA00000000000000000059 /* AudioManager.swift */,
+				AA20000000000000000008 /* OpusCodec.swift */,
+				AA20000000000000000009 /* AudioManager.swift */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
 		};
-		AA00000000000000000095 /* ViewModels */ = {
+		AA30000000000000000060 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				AA00000000000000000060 /* ConversationViewModel.swift */,
+				AA20000000000000000010 /* ConversationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -124,14 +124,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA00000000000000000090 /* XiaozhiAI */ = {
+		AA40000000000000000001 /* XiaozhiAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA000000000000000000A0 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */;
+			buildConfigurationList = AA70000000000000000001 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */;
 			buildPhases = (
-				AA00000000000000000091 /* Sources */,
-				AA00000000000000000070 /* Frameworks */,
-				AA00000000000000000092 /* Resources */,
-				AA00000000000000000093 /* Build Opus */,
+				AA50000000000000000001 /* Sources */,
+				AA80000000000000000001 /* Frameworks */,
+				AA80000000000000000002 /* Resources */,
+				AA50000000000000000002 /* Build Opus */,
 			);
 			buildRules = (
 			);
@@ -139,25 +139,25 @@
 			);
 			name = XiaozhiAI;
 			productName = XiaozhiAI;
-			productReference = AA00000000000000000050 /* XiaozhiAI.app */;
+			productReference = AA20000000000000000000 /* XiaozhiAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA00000000000000000095 /* Project object */ = {
+		AA90000000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					AA00000000000000000090 = {
+					AA40000000000000000001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = AA000000000000000000A1 /* Build configuration list for PBXProject "XiaozhiAI" */;
+			buildConfigurationList = AA70000000000000000002 /* Build configuration list for PBXProject "XiaozhiAI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,18 +165,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AA00000000000000000080;
-			productRefGroup = AA00000000000000000080;
+			mainGroup = AA30000000000000000000;
+			productRefGroup = AA30000000000000000000;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA00000000000000000090 /* XiaozhiAI */,
+				AA40000000000000000001 /* XiaozhiAI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA00000000000000000092 /* Resources */ = {
+		AA80000000000000000002 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,7 +186,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA00000000000000000093 /* Build Opus */ = {
+		AA50000000000000000002 /* Build Opus */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,27 +208,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA00000000000000000091 /* Sources */ = {
+		AA50000000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA00000000000000000001 /* XiaozhiAIApp.swift in Sources */,
-				AA00000000000000000002 /* ContentView.swift in Sources */,
-				AA00000000000000000003 /* SettingsView.swift in Sources */,
-				AA00000000000000000004 /* MessageModels.swift in Sources */,
-				AA00000000000000000005 /* ConfigManager.swift in Sources */,
-				AA00000000000000000006 /* OtaService.swift in Sources */,
-				AA00000000000000000007 /* WebSocketManager.swift in Sources */,
-				AA00000000000000000008 /* OpusCodec.swift in Sources */,
-				AA00000000000000000009 /* AudioManager.swift in Sources */,
-				AA00000000000000000010 /* ConversationViewModel.swift in Sources */,
+				AA10000000000000000001 /* XiaozhiAIApp.swift in Sources */,
+				AA10000000000000000002 /* ContentView.swift in Sources */,
+				AA10000000000000000003 /* SettingsView.swift in Sources */,
+				AA10000000000000000004 /* MessageModels.swift in Sources */,
+				AA10000000000000000005 /* ConfigManager.swift in Sources */,
+				AA10000000000000000006 /* OtaService.swift in Sources */,
+				AA10000000000000000007 /* WebSocketManager.swift in Sources */,
+				AA10000000000000000008 /* OpusCodec.swift in Sources */,
+				AA10000000000000000009 /* AudioManager.swift in Sources */,
+				AA10000000000000000010 /* ConversationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AA000000000000000000A2 /* Debug */ = {
+		AA60000000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		AA000000000000000000A3 /* Release */ = {
+		AA60000000000000000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +275,7 @@
 			};
 			name = Release;
 		};
-		AA000000000000000000A4 /* Debug */ = {
+		AA60000000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
@@ -316,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		AA000000000000000000A5 /* Release */ = {
+		AA60000000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
@@ -360,25 +360,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA000000000000000000A0 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */ = {
+		AA70000000000000000001 /* Build configuration list for PBXNativeTarget "XiaozhiAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000000000000000000A4 /* Debug */,
-				AA000000000000000000A5 /* Release */,
+				AA60000000000000000003 /* Debug */,
+				AA60000000000000000004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA000000000000000000A1 /* Build configuration list for PBXProject "XiaozhiAI" */ = {
+		AA70000000000000000002 /* Build configuration list for PBXProject "XiaozhiAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000000000000000000A2 /* Debug */,
-				AA000000000000000000A3 /* Release */,
+				AA60000000000000000001 /* Debug */,
+				AA60000000000000000002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA00000000000000000095 /* Project object */;
+	rootObject = AA90000000000000000001;
 }
