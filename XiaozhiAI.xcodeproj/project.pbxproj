@@ -203,7 +203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/build_opus.sh\"\n";
+			shellScript = "bash \"$SRCROOT/build_opus.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
